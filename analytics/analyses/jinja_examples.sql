@@ -1,4 +1,4 @@
-{% set roles = ['data analyst','data engineer','data scientist'] -%}
+{% set roles = dbt_utils.get_column_values(ref('stg_job_postings'), 'search_term') -%}
 
 {% for role in roles -%}
 SELECT

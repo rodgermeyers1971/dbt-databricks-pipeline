@@ -30,6 +30,16 @@ models:
         description: Raw relative posted time ('10 hours ago'), kept unparsed - search_date carries the time axis; parsing it is a supporter exercise.
       - name: job_salary
         description: Raw salary text, unparsed for now.
+      - name: salary_min
+        description: Parsed minimum salary from the raw text.
+      - name: salary_max
+        description: Parsed maximum salary from the raw text.
+      - name: salary_avg
+        description: Average of the parsed minimum and maximum salaries.
+      - name: salary_period
+        description: Salary period as extracted from the raw text (e.g., 'year', 'hour').
+      - name: salary_currency
+        description: Salary currency as extracted from the raw text, defaulting to 'USD' if not specified.
       - name: has_health_insurance
         description: Posting lists Health insurance among its extensions.
       - name: has_dental_insurance

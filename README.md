@@ -1,6 +1,6 @@
 # Production Job Postings Pipeline (v2) - dbt + Databricks
 
-[![dbt Docs](https://img.shields.io/badge/dbt_docs-live-blue)](https://YOU.github.io/REPO/)
+[![dbt Docs](https://img.shields.io/badge/dbt_docs-live-blue)](https://rodgermeyers1971.github.io/dbt-databricks-pipeline/)
 ![Databricks](https://img.shields.io/badge/warehouse-Databricks-FF3621)
 
 ![P2 pipeline architecture](img/p2_pipeline.png)
@@ -79,7 +79,7 @@ The marts keep each job's **latest** scrape. The snapshot table keeps **every ve
 
 Structure, tests, and column descriptions were written along the way. The docs site is a rendering of work already done:
 
-**→ [YOU.github.io/REPO](https://YOU.github.io/REPO/)**
+**→ [Docs Page](https://rodgermeyers1971.github.io/dbt-databricks-pipeline/)**
 
 The site shows:
 
